@@ -1,12 +1,12 @@
 @media (max-width: 575.98px) {
-  .main {
+  section {
     padding: 70px 0
   }
-  .main .details {
+  section .details {
     flex-direction: column;
     width: 90%;
   }
-  .main .content-text {
+  section .info-text {
     order: 1;
     text-align: center;
     padding: 70px 0;
@@ -14,77 +14,77 @@
     margin: auto;
     gap: 15px;
   }
-  .main .content-text h1 {
+  section .info-text h1 {
     font-size: 2em;
     line-height: 1.2;
   }
-  .main .content-text p {
+  section .info-text p {
     line-height: 1.9;
   }
-  .main .content-text ul {
+  section .info-text ul {
     flex-direction: column;
     justify-content: center;
   }
-  .main .img .img-desktop {
+  section .img .img-desktop {
     display: none;
   }
-  .main .img::after {
+  section .img::after {
     height: 99%;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .main {
+  section {
     padding: 70px 0
   }
-  .main .details {
+  section .details {
     flex-direction: column;
     width: 90%;
   }
-  .main .content-text {
+  section .info-text {
     order: 1;
     text-align: center;
     gap: 15px;
   }
-  .main .content-text h1 {
+  section .info-text h1 {
     font-size: 2em;
     line-height: 1.2;
   }
-  .main .content-text p {
+  section .info-text p {
     line-height: 1.9;
   }
-  .main .content-text ul {
+  section .info-text ul {
     flex-direction: column;
     justify-content: center;
   }
-  .main .img .img-desktop {
+  section .img .img-desktop {
     display: none;
   }
-  .main .img::after {
+  section .img::after {
     height: 99.2%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .main .details {
+  section .details {
     width: 90%;
   }
-  .main .img .img-moblie {
+  section .img .img-moblie {
     display: none;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .main .details {
+  section .details {
     width: 90%;
   }
-  .main .img .img-moblie {
+  section .img .img-moblie {
     display: none;
   }
 }
 
 @media (min-width: 1200px) { 
-  .main .img .img-moblie {
+  section .img .img-moblie {
     display: none;
   }
 }

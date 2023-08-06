@@ -29,7 +29,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 
-.main .text {
+.main .content-text {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -38,38 +38,38 @@ body {
   padding: 70px;
 }
 
-.main .text h1 {
+.main .content-text h1 {
   color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
   font-size: 2.3em;
   line-height: 1.4;
 }
 
-.main .text h1 span {
+.main .content-text h1 span {
   color: hsl(277, 64%, 61%);
 }
 
-.main .text p {
+.main .content-text p {
   font-size: 14px;
   line-height: 1.6;
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-.main .text ul {
+.main .content-text ul {
   list-style: none;
   display: flex;
   font-family: "Inter", sans-serif;
   justify-content: space-between;
 }
 
-.main .text ul li {
+.main .content-text ul li {
   margin-top: 30px;
   font-size: 20px;
   font-weight: 700;
   color: hsl(0, 0%, 100%);
 }
 
-.main .text ul li span {
+.main .content-text ul li span {
   display: block;
   font-family: "Lexend Deca", sans-serif;
   color: hsla(0, 0%, 100%, 0.6);
@@ -102,7 +102,7 @@ body {
   height: 100%;
 }
 
-/*  Footer */
+/*  Attribution */
 .attribution {
   display: flex;
   justify-content: center;

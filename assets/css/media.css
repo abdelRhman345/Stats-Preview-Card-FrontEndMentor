@@ -2,11 +2,11 @@
   .main {
     padding: 70px 0
   }
-  .main .details {
+  .main .details-main {
     flex-direction: column;
     width: 90%;
   }
-  .main .text {
+  .main .text-main {
     order: 1;
     text-align: center;
     padding: 70px 0;
@@ -14,14 +14,14 @@
     margin: auto;
     gap: 15px;
   }
-  .main .text h1 {
+  .main .text-main h1 {
     font-size: 2em;
     line-height: 1.2;
   }
-  .main .text p {
+  .main .text-main p {
     line-height: 1.9;
   }
-  .main .text ul {
+  .main .text-main ul {
     flex-direction: column;
     justify-content: center;
   }
@@ -37,23 +37,23 @@
   .main {
     padding: 70px 0
   }
-  .main .details {
+  .main .details-main {
     flex-direction: column;
     width: 90%;
   }
-  .main .text {
+  .main .text-main {
     order: 1;
     text-align: center;
     gap: 15px;
   }
-  .main .text h1 {
+  .main .text-main h1 {
     font-size: 2em;
     line-height: 1.2;
   }
-  .main .text p {
+  .main .text-main p {
     line-height: 1.9;
   }
-  .main .text ul {
+  .main .text-main ul {
     flex-direction: column;
     justify-content: center;
   }
@@ -66,7 +66,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .main .details {
+  .main .details-main {
     width: 90%;
   }
   .main .img .img-moblie {
@@ -75,7 +75,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .main .details {
+  .main .details-main {
     width: 90%;
   }
   .main .img .img-moblie {

@@ -102,11 +102,11 @@ body {
   height: 100%;
 }
 
-/*  Attribution */
+/*  Footer */
 .attribution {
-  position: absolute;
-  bottom: 0;
-  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 11px;
   text-align: center;
   color: hsla(0, 0%, 100%, 0.6);
